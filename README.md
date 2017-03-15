@@ -5,7 +5,10 @@ Congratulations, you've successfully generated a starter project!  What next?
 
 ### How to create GWT application
 
+    $ jenv install gwt 2.8.0
     $ webAppCreator -noant -maven -XnoEclipse -out MyGwtWebApp org.mvnsearch.MyGwtWebApp
+
+Then use IntelliJ IDEA to open the project and modify the GWT facet settings.
 
 ### Using Maven
 
