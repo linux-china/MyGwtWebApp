@@ -24,10 +24,9 @@ mvn package       # generate a .war package ready to deploy
 For more information about other available goals, read Maven and gwt-maven-plugin 
 documentation (http://maven.apache.org, https://tbroyer.github.io/gwt-maven-plugin/)
 
+### Glossary
 
-### Vocabulary
-
-* User View: HTML page with GWT module
+* User View: HTML page that includes a reference to a GWT module `.nocache.js`
 * GWT Module: Module Name = Java Package + Module File Name (-gwt.xml)
 * UIObject <- Widget <- Panel <- ComplexPanel <-- XoxoPanel
 * Widget: a component of your web application with which the user may interact.
@@ -40,3 +39,4 @@ documentation (http://maven.apache.org, https://tbroyer.github.io/gwt-maven-plug
 ### References
 
 * Spring Boot with GWT: https://github.com/interseroh/demo-gwt-springboot
+* GWT Release Notes: http://www.gwtproject.org/release-notes.html
