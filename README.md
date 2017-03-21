@@ -33,7 +33,9 @@ documentation (http://maven.apache.org, https://tbroyer.github.io/gwt-maven-plug
 * Widget: a component of your web application with which the user may interact.
 * Panel: a widget that can hold one or more other widgets in a specific visual/functional structure
 
-![](.README_images/gwt_widget_hierarchy.png)
+![Gwt Widget Hierarchy](.README_images/gwt_widget_hierarchy.png)
+
+![Gwt Containers](.README_images/gwt_containers.png)
 
 ### References
 
