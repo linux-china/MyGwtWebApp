@@ -23,3 +23,14 @@ mvn package       # generate a .war package ready to deploy
 
 For more information about other available goals, read Maven and gwt-maven-plugin 
 documentation (http://maven.apache.org, https://tbroyer.github.io/gwt-maven-plugin/)
+
+
+### Vocabulary
+
+* User View: HTML page with GWT module
+* GWT Module: Module Name = Java Package + Module File Name (-gwt.xml)
+
+
+### References
+
+* Spring Boot with GWT: https://github.com/interseroh/demo-gwt-springboot
