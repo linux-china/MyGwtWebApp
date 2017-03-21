@@ -29,7 +29,11 @@ documentation (http://maven.apache.org, https://tbroyer.github.io/gwt-maven-plug
 
 * User View: HTML page with GWT module
 * GWT Module: Module Name = Java Package + Module File Name (-gwt.xml)
+* UIObject <- Widget <- Panel <- ComplexPanel <-- XoxoPanel
+* Widget: a component of your web application with which the user may interact.
+* Panel: a widget that can hold one or more other widgets in a specific visual/functional structure
 
+![](.README_images/gwt_widget_hierarchy.png)
 
 ### References
 
